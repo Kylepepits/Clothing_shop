@@ -3,6 +3,7 @@ import { ShopContext } from "../Context/useContext";
 import { Product } from "../../models";
 import { ProductCard } from "../ProductCard";
 import { ProductsWrapper, Title } from "./Wishlist.styled";
+import React from "react";
 
 export const Wishlist = () => {
   const { saved } = useContext(ShopContext);
